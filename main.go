@@ -1,13 +1,11 @@
 package main
 
 import (
-	"github.com/grandima/go-string-practice/piglatin"
-	"github.com/grandima/go-string-practice/vowelnum"
+	"github.com/grandima/go-string-practice/spiralMatrix"
 )
 
 func main() {
-	vowelnum.VowelConvert(false)
-	piglatin.PigLatin()
-
+	//vowelnum.VowelConvert(false)
+	//piglatin.PigLatin()
+	spiralMatrix.Spiral()
 }
-
